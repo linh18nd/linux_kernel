@@ -1,0 +1,4 @@
+PID của cha: 7887
+I am parent
+PID của con: 7888
+I am child
