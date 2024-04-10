@@ -43,7 +43,9 @@ int main() {
     	        printf("Nhập mã sinh viên: ");
        	      	scanf("%d", &students[num_students].student_id);
              	printf("Nhập tên sinh viên: ");
-              	getchar(); // Clear input buffer
+              	// Clear input buffer
+                int c;
+                while ((c = getchar()) != '\n' && c != EOF);
             	fgets(students[num_students].name, sizeof(students[num_students].name), stdin);
               	students[num_students].name[strcspn(students[num_students].name, "\n")] = '\0'; // Remove newline character
               	printf("Nhập lớp: ");
@@ -52,6 +54,8 @@ int main() {
               	num_students++;
               	printf("Kết thúc thì nhập 0 \n");
               	scanf("%d", &tiep);
+                // Clear input buffer
+                while ((c = getchar()) != '\n' && c != EOF);
     	      }while(tiep != 0);
     	      break;
     	   case 2:
@@ -76,3 +80,4 @@ int main() {
     }
     return 0;
 }
+

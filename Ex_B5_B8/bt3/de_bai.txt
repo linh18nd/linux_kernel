@@ -1,0 +1,11 @@
+Bài 1: Viết 2 chương trình thực hiện công việc sau:
+Chương trình 1 thực hiện menu chức năng:
+1. Nhập vào danh sách sinh viên (mã sv, họ tên, lớp)
+2. Nhấn Ctrl + C để copy danh sách sinh viên vào vùng nhớ chia sẻ
+3. Kết thúc
+Chương trình 2 thực hiện menu chức năng:
+1. Nhấn Ctrl + V để đọc dữ liệu từ vùng nhớ chia sẻ từ ctr 1
+2. Hiển thị danh sách sinh viên
+3. Kết thúc
+Bài 2: Thực hiện yêu cầu như Bài 1 nhưng sử dụng Semaphore để bảo vệ vùng nhớ chia sẻ.
+libncurses-dev
