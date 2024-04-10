@@ -1,1 +1,0 @@
-savedcmd_/home/linhplz/linux_kernel/Ex_B5_B8/bt4/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/linhplz/linux_kernel/Ex_B5_B8/bt4/Module.symvers -T /home/linhplz/linux_kernel/Ex_B5_B8/bt4/modules.order -i Module.symvers -e 
