@@ -1,0 +1,31 @@
+LẬP TRÌNH NHÂN LINUX
+Phần 1. Lab 3
+
+Mục tiêu:
+	•	Tìm hiểu, tạo và sử dụng makefile
+	•	Build, install phần mềm từ mã nguồn trong Ubuntu
+
+1. Makefile
+Links tham khảo:
+https://eslinuxprogramming.blogspot.com/2015/04/gnu-make.html
+http://eslinuxprogramming.blogspot.com/2015/06/makefile-part-2.html
+
+Thực hiện công việc sau:
+Tạo 1 project C đơn giản gồm:
+Các file *.h: hinhVuong.h; tron.h; tam giac.h
+Các file *.c: hinhVuong.c; tron.c; tam giac.c: tính chu vi, diện tích tương ứng
+Tinh.c: thực hiện menu chức năng:
+1. Nhập cạnh và tính chu vi, diện tích tam giác
+2. Nhập cạnh và tính chu vi, diện tích hình vuông
+3. Nhập bán kính và tính chu vi, diện tích hình tròn
+4. Kết thúc
+5. Chọn: 
+
+Xây dựng makefile để thực hiện project trên
+
+2. Xây dựng thư viện tĩnh (static lib) và chia sẻ (shared lib)
+Build các file trên thành một thư viện tĩnh theo hướng dẫn (https://www.cs.dartmouth.edu/~campbell/cs50/buildlib.html)
+(https://randu.org/tutorials/c/libraries.php)
+Viết một chương trình ứng dụng sử dụng thư viện vừa tạo
+	
+

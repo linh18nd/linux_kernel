@@ -1,0 +1,7 @@
+Bài tập Buổi 3 – Semaphore
+Xem xét ba tiến trình/luồng như sau
+
+Thêm các thao tác với semaphore sao cho kết quả in ra trên màn hình là 
+R I O OK OK OK
+(Thứ tự thực hiện các tiến trình: P1 -> P2 -> P3 -> P3 -> P2 -> P1)
+

@@ -1,0 +1,6 @@
+Viết và install module nhân thực hiện công việc sau (với N, M là các tham số truyền vào):
+1. Đếm số phần tử nhỏ hơn N trong ma trận
+2. Đếm số phần tử chia hết cho N trong ma trận
+3. Đếm số phần tử là nguyên tố >= N trong ma trận
+4. Tính giai thừa của N
+5. Đếm số phần tử là nguyên tố nằm trong đoạn [M, N]

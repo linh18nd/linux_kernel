@@ -109,5 +109,5 @@ module_init(matrix_module_init);
 module_exit(matrix_module_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Huy");
-MODULE_DESCRIPTION("BT5");
+MODULE_AUTHOR("Linh");
+MODULE_DESCRIPTION("CT050429");

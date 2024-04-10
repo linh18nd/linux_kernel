@@ -1,0 +1,6 @@
+Bài tập Buổi 3 – Signal
+1/ Viết 1 chương trình C để in chữ hello world mỗi khi user nhấn phím Ctrl + C
+
+2/ Viết 1 chương trình C sleep vô thời hạn, sử dụng 1 chương trình C khác gửi signal để wakeup chương trình C đầu tiên lên.
+
+3/ Viết chương trình A fork ra chương trình B. A và B cùng ghi vào 1 file. Mỗi chương trình sẽ đọc lần lượt dòng counter cuối cùng của file và tăng nó lên 1, sau đó ghi tiếp 1 dòng mới là process ID của chính nó kèm biến counter mới. Phải sử dụng signal để đồng bộ giữa 2 process

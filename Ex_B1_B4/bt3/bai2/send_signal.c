@@ -9,7 +9,6 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Lấy PID của chương trình sleep từ đối số dòng lệnh
     pid_t pid = atoi(argv[1]);
 
     // Gửi signal SIGUSR1 đến chương trình sleep

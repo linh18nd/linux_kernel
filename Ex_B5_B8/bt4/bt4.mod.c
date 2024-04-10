@@ -37,7 +37,6 @@ static const struct modversion_info ____versions[]
 __used __section("__versions") = {
 	{ 0xbdfb6dbb, "__fentry__" },
 	{ 0x87a21cb3, "__ubsan_handle_out_of_bounds" },
-	{ 0x3a0a8b87, "param_ops_int" },
 	{ 0x122c3a7e, "_printk" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
 	{ 0x2fa5cadd, "module_layout" },
@@ -46,4 +45,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "B42095A2335DD4249069E8A");
+MODULE_INFO(srcversion, "D8D3BC3F2574DCCA2DA4149");

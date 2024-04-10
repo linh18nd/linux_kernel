@@ -1,0 +1,9 @@
+Bài tập Buổi 2 - Process
+1/ Viết một chương trình xử lý tham số đầu vào giống với câu lệnh ls. Ví dụ nếu call "my_ls -l" sẽ in ra dòng chữ hiện thị full property, nếu truyền -a sẽ in hiển thị file ẩn, nếu truyền -la sẽ in ra cả 2 dòng trên.
+
+2/ Viết 1 chương trình C fork ra cha và con, trong process cha in ra pid và "I am parent", trong process con làm tương tự. So sánh PID in ra và PID sử dụng lệnh PS
+Thử mở 1 file trước khi fork, sau đó cả cha và con cùng ghi vào file fd trước đó và check kết quả
+Thử với biến thông thường và xem kết quả.
+Dùng fork() để tạo ra 2 process cha và con, sử dụng lệnh kill để kill 1 trong 2 và check xem process còn lại có bị kill không
+
+3/ Viết 2 chương trình cha và con. Chương trình cha gọi con với tham số truyền vào là đường dẫn đến file. Chương trình con ghi hello world vào file và trả về trạng thái kết quả cho cha. Cha phải biết kết quả thực hiện của chương trình con.

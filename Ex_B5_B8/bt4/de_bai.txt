@@ -1,0 +1,4 @@
+Viết và install module nhân thực hiện công việc sau:
+1. Tìm min, max trên ma trận
+2. Đếm số nguyên tố trong ma trận
+3. Tính tổng, tích 2 ma trận
