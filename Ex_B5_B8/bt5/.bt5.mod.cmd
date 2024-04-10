@@ -1,0 +1,1 @@
+savedcmd_/home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.mod := printf '%s\n'   bt5.o | awk '!x[$$0]++ { print("/home/linhplz/linux_kernel/Ex_B5_B8/bt5/"$$0) }' > /home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.ko /home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.o /home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.mod.o;  make -f ./arch/x86/Makefile.postlink /home/linhplz/linux_kernel/Ex_B5_B8/bt5/bt5.ko
